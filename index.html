@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title> Susama Saha </title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/Javascript" src="showDetails.js"></script>
+</head>
+
+<body>
+<header>
+    <div id="left-header"><img id="name-img" alt="name image" src="images/name-top.png"></div>
+    <div id="right-header"><img id="mail-img" alt="mail" src="images/mail.png"><img alt="cell" id="cell-img" src="images/cell.png"></div>
+</header>
+<section>
+    <aside id="col-1"> 
+    <nav>
+	
+	<ul>
+		<li class="current"><a href="#"><img alt="menu image" id="menu-img" src="images/menu.png"></a></li>
+		<li><a id="about" onclick="showDetails(this.id);" href="#">About Me</a></li>
+             	<li><a id="portfolio" onclick="showDetails(this.id);" href="#">Resume</a></li>
+		<li><a id="contact" onclick="showDetails(this.id);" href="#">Contact</a></li>
+		
+	</ul>
+    </nav>
+    </aside>
+    <div id="col-2">
+        <article id="resume">
+            <article id="profileImg-500"><img id="profile-img-500" alt="profile image" src="images/profile.png"></article>
+            <article id="content"> My Name is Susama Saha.I am a junior at University of North Carolina at Charlotte. I am working toward my BS in Computer Science with a minor in Business.<br><br> I have worked for several years before I decided to pursue my Bachelors degree. In my past employments I have developed websites, designed graphics and product catalogs. I also had opportunity to do a bit of technical writing where worked on user manuals for software.<br><br>  I always found the client interaction with a web app very appealing. I enjoy building simple website to interactive web applications.<p>For this web page I used <strong>HTML5 and CSS3</strong> for designing purposes. <strong>Javascript</strong> is used to load the content dynamically.</p></article> 
+                
+        </article>
+    <article id="profileImg"><img id="profile-img" alt="profile image" src="images/profile.png"></article>
+    </div>
+</section>
+    <footer>
+        <div id="left-footer">4265 colony road charlotte North Carolina 28226</div>
+        <div id="right-footer">  <img alt="social media" id="social-img" src="images/media.png"></div></footer>
+ </body>
+</html>
